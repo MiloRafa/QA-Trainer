@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        background: #baaeb5;
+    }
+
+    .content {
+        max-width: 500px;
+        margin: auto;
+        background: white;
+        padding: 10px;
+    }
+
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #0ea6af;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #6c9fa0;
+    }
+
+    div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+</style>
+<body>
+<div class="content">
+
+    <h1 style="text-align:center"> ADD QA TRAINERS </h1>
+
+    <div>
+        <form action="/">
+            <h4><label>Personal Details:</label></h4>
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email..">
+
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" placeholder="Your address..">
+
+            <h4><label>Skill</label></h4>
+
+            <label for="Java">Java</label>
+            <select id="Java" name="Java">
+                <option value="1">Level 1</option>
+                <option value="2">Level 2</option>
+                <option value="3">Level 3</option>
+                <option value="4">Level 4</option>
+            </select>
+
+            <label for="SQL">SQL</label>
+            <select id="SQL" name="SQL">
+                <option value="1">Level 1</option>
+                <option value="2">Level 2</option>
+                <option value="3">Level 3</option>
+                <option value="4">Level 4</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
+</body>

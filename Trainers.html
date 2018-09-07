@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trainers</title>
+    <style>
+        body {
+            background: #baaeb5;
+        }
+
+        .content {
+            max-width: 500px;
+            margin: auto;
+            background: white;
+            padding: 10px;
+        }
+        table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+    td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    }
+
+    tr:nth-child(even) {
+    background-color: #dddddd;
+    }
+
+
+        input[type=button] {
+            width: 100%;
+            background-color: #0ea6af;
+            color: white;
+            padding: 7px 10px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=button]:hover {
+            background-color: #6c9fa0;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+<h1 style="text-align:center"> QA TRAINERS </h1>
+<form action = 'http://localhost:8000/trainers' method='post'>
+
+    <table>
+        <tr>
+            <th>Trainer ID</th>
+            <th>Trainer Name</th>
+            <th> </th>
+            <th> </th>
+
+        </tr>
+        <tr>
+            <td><label name="id"> </label></td>
+            <td><label name="name"> </label></td>
+            <td><input type = "button" class="Button" name="Edit" value="Edit"></td>
+            <td><input type = "button" class="Button" Value="Delete"></td>
+
+        </tr>
+    </table>
+</form>
+
+</div>
+</body>
+<script>
+    let A = [{}]
+    document.getElementById(('tableid'))
+
+</script>
+</html>
